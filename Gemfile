@@ -4,7 +4,6 @@ gem 'rails', '3.2.13'
 
 group :production, :staging do
   gem "pg"
-  gem "activerecord-postgresql-adapter"
 end
 
 group :development, :test do
